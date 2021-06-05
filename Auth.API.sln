@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.API", "Auth.API\Auth.API.csproj", "{49EAC4A1-D605-46E3-8F7E-58F5750CC603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.API", "Auth.API\Auth.API.csproj", "{49EAC4A1-D605-46E3-8F7E-58F5750CC603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Domain", "Auth.Domain\Auth.Domain.csproj", "{0919CD48-5860-4D35-9368-05CDDC342ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Infra", "Auth.Infra\Auth.Infra.csproj", "{411F8490-3F9F-490A-95EA-9E31A4ED7E1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{49EAC4A1-D605-46E3-8F7E-58F5750CC603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49EAC4A1-D605-46E3-8F7E-58F5750CC603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49EAC4A1-D605-46E3-8F7E-58F5750CC603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0919CD48-5860-4D35-9368-05CDDC342ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0919CD48-5860-4D35-9368-05CDDC342ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0919CD48-5860-4D35-9368-05CDDC342ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0919CD48-5860-4D35-9368-05CDDC342ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411F8490-3F9F-490A-95EA-9E31A4ED7E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411F8490-3F9F-490A-95EA-9E31A4ED7E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411F8490-3F9F-490A-95EA-9E31A4ED7E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411F8490-3F9F-490A-95EA-9E31A4ED7E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
