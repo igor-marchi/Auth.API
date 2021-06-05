@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auth.Infra.Service
+namespace Auth.Infra.Interface.Service
 {
-    class Class1
+    
+    public interface IBaseService
     {
+        
     }
 }
