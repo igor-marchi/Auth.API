@@ -5,14 +5,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Entity\" />
-		<Folder Include="Interface\Repository\" />
-		<Folder Include="Interface\Service\" />
-		<Folder Include="Mapping\" />
-		<Folder Include="Service\" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<ProjectReference Include="..\Auth.Domain\Auth.Domain.csproj" />
 	</ItemGroup>
 </Project>
