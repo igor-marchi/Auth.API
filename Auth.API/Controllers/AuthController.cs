@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Auth.API.Controllers
 {
@@ -8,7 +9,7 @@ namespace Auth.API.Controllers
     {
 
         [HttpGet]
-        public async Task<IActionResult> Authenticate() => Ok();
+        public async Task<IActionResult> Authenticate() => Ok("Sucesso");
 
     }
 }
