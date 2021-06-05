@@ -5,7 +5,7 @@ namespace Auth.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class AuthController : ControllerBase
+    public class AuthController : MainController
     {
 
         [HttpGet]
