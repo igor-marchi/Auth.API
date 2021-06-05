@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Entity\" />
+		<Folder Include="Interface\Repository\" />
+		<Folder Include="Interface\Service\" />
+		<Folder Include="Service\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Auth.Domain\Auth.Domain.csproj" />
+	</ItemGroup>
+</Project>
